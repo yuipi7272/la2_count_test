@@ -6,5 +6,23 @@
 	<link rel="stylesheet" href="/assets/css/count.css">
 </head>
 <body>
+	<h1><%= @number %></h1>
+	<form action="/plus" type="POST">
+		<input value="+" type="submit">
+	</form>
+	<form action="/minus" type="POST">
+		<input value="-" type="submit">
+	</form>
+	<form action="/clear" type="POST">
+		<input value="clear" type="submit">
+	</form>
+	<!-- * 2を行う -->
+	<form action="/double" type="POST">
+		<input value="x2" type="submit">
+	</form>
+	<!-- / 2を行う -->
+	<form action="/divide" type="POST">
+		<input value="÷2" type="submit">
+	</form>
 </body>
 </html>

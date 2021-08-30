@@ -66,3 +66,21 @@ input[value="-"]{
     color: #f9f9f9;
     background: #F44336;
 }
+
+/* clearボタン */
+input[value="clear"]{
+    color: #f9f9f9;
+    background: #95FD94;
+}
+
+/* x2ボタン */
+input[value="x2"]{
+    color: #f9f9f9;
+    background: #81F437;
+}
+
+/* ÷2ボタン */
+input[value="÷2"]{
+    color: #f9f9f9;
+    background: #F4E636;
+}

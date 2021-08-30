@@ -24,6 +24,7 @@ end
 get '/minus' do
   @number = Count.find(1).number
   @number -= 1
+  Count.save(number: @number)
   redirect "/"
 end
 
@@ -41,7 +42,7 @@ end
 
 get '/divide' do
   @number = Count.find(1).number
-  @number /= 2
+  @number = @number / 2
   redirect "/"
 end
 
